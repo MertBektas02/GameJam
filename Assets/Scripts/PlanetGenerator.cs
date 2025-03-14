@@ -18,7 +18,11 @@ public class PlanetGenerator : MonoBehaviour
         if(planetMaterial != null)
         {
             Color randomColor = new Color(Random.value, Random.value, Random.value); // random color
-            planetMaterial.color = randomColor; // signing the random color to the planetMaterial.
+            planetMaterial.SetColor("_BaseColor", randomColor); // signing the random color to the planetMaterial.
+
+            planetMaterial.SetFloat("_NoiseScale", Random.Range(10f, 100f));
+            planetMaterial.SetFloat("_NoiseStrength", Random.Range(0.1f, 1f));
+            planetMaterial.SetFloat("_FresnelIntensity", Random.Range(0.5f, 3f));
             GetComponent<MeshRenderer>().material = planetMaterial; // signing planetMaterial to the obj meshrenderer.
         }
 

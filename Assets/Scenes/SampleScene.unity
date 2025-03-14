@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eb41094a63c0841b140df3adecb686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetMaterial: {fileID: 2100000, guid: 95d10896b03c2504980019049ec71084, type: 2}
+  planetMaterial: {fileID: 2100000, guid: 9156e198d7d562943aa727099ff14df2, type: 2}
 --- !u!135 &382522915
 SphereCollider:
   m_ObjectHideFlags: 0

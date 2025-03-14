@@ -22,8 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_RandomPlanetShaderGraph
   m_Shader: {fileID: -6465566751694194690, guid: 97b0bf6700cf16b4683cb033467b6e21, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
+  m_Parent: {fileID: -876546973899608171, guid: 97b0bf6700cf16b4683cb033467b6e21, type: 3}
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -36,23 +36,14 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _FresnelIntensity: 1.7428781
+    - _NoiseScale: 81.678696
+    - _NoiseStrength: 0.4499
     - _QueueControl: 0
-    - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _BaseColor: {r: 0.8459233, g: 0.3512974, b: 0.069361456, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
