@@ -7,7 +7,7 @@ public class WorldStats
 
 
     public int worldStamina{get; private set;}
-    public int testStat{get; private set;}
+    public int testStat{ get;  set;}
 
     public WorldStats()
     {

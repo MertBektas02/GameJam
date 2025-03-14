@@ -14,7 +14,7 @@ public class HeroStats
     // public int heroDexterity=1;
 
 
-    public int testStat{get; private set;}
+    public int testStat{get;  set;}
     public int heroStamina{get; private set;}
     public int heroIntelligence{get; private set;}
     public int heroWisdom{get; private set;}
