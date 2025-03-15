@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Hero
+  - Planet
   layers:
   - Default
   - TransparentFX
