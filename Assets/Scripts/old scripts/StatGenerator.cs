@@ -24,7 +24,7 @@ public class StatGenerator : MonoBehaviour
         heroTestStatText.text=$"test Stat:{heroStats.testStat}\n"+ $"Stamina:{heroStats.heroStamina}";
         worldText.text=$"test stat:{worldStats.testStat}";
 
-        sendHero.onClick.AddListener(OnButtonCheck);
+        sendHero.onClick.AddListener(OnButtonCheck111);
 
 
         
@@ -37,7 +37,7 @@ public class StatGenerator : MonoBehaviour
 
 //     }
 
-    void OnButtonCheck()
+    void OnButtonCheck111()
     {
         if(worldStats.testStat<=heroStats.testStat)
         {
